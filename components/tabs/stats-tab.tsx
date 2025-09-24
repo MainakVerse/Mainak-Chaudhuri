@@ -18,11 +18,11 @@ import {
 import { Code, GitBranch, Users, Award, TrendingUp, Calendar, Coffee, Zap } from "lucide-react"
 
 const skillsData = [
-  { name: "JavaScript", level: 95 },
-  { name: "TypeScript", level: 90 },
-  { name: "React", level: 92 },
-  { name: "Node.js", level: 88 },
-  { name: "Python", level: 85 },
+  { name: "Python", level: 95 },
+  { name: "Azure Data Factory", level: 90 },
+  { name: "SQL", level: 92 },
+  { name: "Machine Learning", level: 88 },
+  { name: "Power BI", level: 85 },
   { name: "AWS", level: 80 },
   { name: "Docker", level: 82 },
   { name: "MongoDB", level: 78 },
@@ -35,13 +35,19 @@ const projectsData = [
   { month: "Apr", projects: 5, commits: 160 },
   { month: "May", projects: 7, commits: 200 },
   { month: "Jun", projects: 9, commits: 280 },
+  { month: "Jul", projects: 4, commits: 290 },
+  { month: "Aug", projects: 6, commits: 120 },
+  { month: "Sep", projects: 8, commits: 220 },
+  { month: "Oct", projects: 5, commits: 290 },
+  { month: "Nov", projects: 7, commits: 120 },
+  { month: "Dec", projects: 9, commits: 100 },
 ]
 
 const languageData = [
-  { name: "JavaScript", value: 35, color: "#3776AB" },
-  { name: "TypeScript", value: 15, color: "#3178C6" },
-  { name: "Python", value: 30, color: "#F7DF1E" },
-  { name: "CSS/SCSS", value: 12, color: "#1572B6" },
+  { name: "Python", value: 60, color: "#3776AB" },
+  { name: "Javascript", value: 12, color: "#F7DF1E" },
+  { name: "SQL", value: 8, color: "#8C1EF3" },
+  { name: "R", value: 12, color: "#1572B6" },
   { name: "Other", value: 8, color: "#6B7280" },
 ]
 
@@ -162,7 +168,7 @@ export function StatsTab() {
   {languageData.map((_, index) => (
     <Cell
       key={`cell-${index}`}
-      fill={["#FDE68A", "#FCA5A5", "#60A5FA", "#86EFAC", "#9CA3AF"][index % 5]}
+      fill={["#60A5FA", "#FCA5A5", "#8C1EF3", "#86EFAC", "#9CA3AF"][index % 5]}
     />
   ))}
 </Pie>
