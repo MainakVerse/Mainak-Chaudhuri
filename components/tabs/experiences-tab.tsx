@@ -9,7 +9,7 @@ const experiences = [
     company: "Luxe Magazines India",
     logo: "/logos/luxe.jpeg",
     location: "Kolkata, IND",
-    period: "Mar, 2025 - Present",
+    period: "Jan, 2025 - Present",
     description: [
       "Designed and implemented ETL pipelines in Azure Data Factory, reducing data processing time by 40%.",
       "Developed scalable dashboards in Power BI and Databricks, increasing reporting efficiency by 35%.",
@@ -23,7 +23,7 @@ const experiences = [
     company: "Happy People AI LLP",
     logo: "/logos/happy-people-ai.jpg",
     location: "Remote",
-    period: "Aug, 2024 - Feb, 2025",
+    period: "Aug, 2024 - Jan, 2025",
     description: [
       "Built AI-powered client applications using LLMs and Next.js, increasing user engagement by 45%.",
       "Implemented CI/CD pipelines with GitHub and Azure, reducing deployment time by 35%.",
@@ -44,6 +44,20 @@ const experiences = [
       "Collaborated with UX teams to deliver pixel-perfect web interfaces, improving user satisfaction by 25%."
     ],
     technologies: ["Salesforce", "LWC", "Apex", "Tableau", "Excel", "GitHub", "Python"],
+  },
+  {
+    id: 4,
+    title: "Freelance Data Scientist",
+    company: "Supernova Business",
+    logo: "/logos/supernova.png",
+    location: "Remote, IND",
+    period: "Jan, 2023 - Jan, 2024",
+    description: [
+      "Developed data pipelines with customized python scripts enhancing data entry efficiency by 40%.",
+      "Created interactive Streamlit dashboards, reducing report generation time by 25% and supporting business decisions.",
+      "Spearheaded MLOps pipelines and orchestrations improving user satisfaction by 75%."
+    ],
+    technologies: ["Streamlit", "SQL", "R", "Power BI", "Excel", "GitHub", "Python", "Tensorflow", "Next JS", "Fast API"],
   },
 ]
 
