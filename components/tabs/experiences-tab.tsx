@@ -51,7 +51,7 @@ const experiences = [
     company: "Supernova Business",
     logo: "/logos/supernova.png",
     location: "Remote, IND",
-    period: "Sep, 2022 - Jan, 2024",
+    period: "Jan, 2022 - Jan, 2024",
     description: [
       "Developed data pipelines with customized python scripts enhancing data entry efficiency by 40%.",
       "Created interactive Streamlit dashboards, reducing report generation time by 25% and supporting business decisions.",
