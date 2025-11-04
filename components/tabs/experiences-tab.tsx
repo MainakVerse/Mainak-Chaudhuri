@@ -5,9 +5,9 @@ import { Calendar, MapPin, Building } from "lucide-react"
 const experiences = [
   {
     id: 1,
-    title: "Data Engineer",
-    company: "Predicta Digital",
-    logo: "/logos/predicta.png",
+    title: "Data & AI Engineer",
+    company: "Luxe Magazines India",
+    logo: "/logos/luxe.jpeg",
     location: "Kolkata, IND",
     period: "Mar, 2025 - Present",
     description: [
