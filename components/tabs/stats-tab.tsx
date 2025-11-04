@@ -72,7 +72,7 @@ export function StatsTab() {
             <Code className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">107</div>
+            <div className="text-2xl font-bold">137</div>
             <p className="text-xs text-muted-foreground">
               <span className="text-green-600">+12%</span> from last month
             </p>
@@ -85,7 +85,7 @@ export function StatsTab() {
             <GitBranch className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">1,247</div>
+            <div className="text-2xl font-bold">2,478</div>
             <p className="text-xs text-muted-foreground">
               <span className="text-green-600">+8%</span> from last month
             </p>
@@ -98,7 +98,7 @@ export function StatsTab() {
             <Users className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">23</div>
+            <div className="text-2xl font-bold">223</div>
             <p className="text-xs text-muted-foreground">
               <span className="text-green-600">+3</span> new this month
             </p>
@@ -253,7 +253,7 @@ export function StatsTab() {
             <Code className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">127K</div>
+            <div className="text-2xl font-bold">257K</div>
             <p className="text-xs text-muted-foreground">written this year</p>
           </CardContent>
         </Card>
