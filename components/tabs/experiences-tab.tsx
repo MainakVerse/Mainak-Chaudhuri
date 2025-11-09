@@ -9,7 +9,7 @@ const experiences = [
     company: "Luxe Magazines India",
     logo: "/logos/luxe.jpeg",
     location: "Kolkata, IND",
-    period: "Jan, 2025 - Present",
+    period: "Jul, 2024 - Present",
     description: [
       "Designed and implemented ETL pipelines in Azure Data Factory, reducing data processing time by 40%.",
       "Developed scalable dashboards in Power BI and Databricks, increasing reporting efficiency by 35%.",
@@ -17,22 +17,9 @@ const experiences = [
     ],
     technologies: ["Python", "Azure Data Factory", "Azure Fabric", "Power Apps", "Excel", "SQL", "Databricks", "Power BI", "GitHub"],
   },
+ 
   {
     id: 2,
-    title: "AI Developer",
-    company: "Happy People AI LLP",
-    logo: "/logos/happy-people-ai.jpg",
-    location: "Remote",
-    period: "Aug, 2024 - Jan, 2025",
-    description: [
-      "Built AI-powered client applications using LLMs and Next.js, increasing user engagement by 45%.",
-      "Implemented CI/CD pipelines with GitHub and Azure, reducing deployment time by 35%.",
-      "Optimized AI model performance and data workflows, improving ROI for client projects by 40%."
-    ],
-    technologies: ["LLM", "Python","Azure", "Power App", "Next.js", "Redis", "Supabase", "GitHub"],
-  },
-  {
-    id: 3,
     title: "DC Analyst",
     company: "Deloitte",
     logo: "/logos/deloitte.png",
@@ -45,8 +32,9 @@ const experiences = [
     ],
     technologies: ["Salesforce", "LWC", "Apex", "Tableau", "Excel", "GitHub", "Python"],
   },
+  
   {
-    id: 4,
+    id: 3,
     title: "Freelance Data Scientist",
     company: "Supernova Business",
     logo: "/logos/supernova.png",
